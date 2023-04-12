@@ -1,4 +1,40 @@
 html {
     background-color: black;
     text-align: center;
+    color: white;
+    font-family: Verdana;
+}
+
+h1 {
+    white-space: nowrap;
+    font-weight: normal;
+    font-size: 50px;
+}
+p {
+    color:aquamarine;
+    font-size: 16px;
+    text-decoration: underline;
+
+}
+main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.travel-heading h2 {
+    font-size: 42px;
+    font-weight: 300;
+}
+span {
+    color: gray;
+    font-size: 21px;
+}
+.image-container {
+    margin: 20px auto;
+}
+footer p {
+    color: gray;
+    font-size: 21px;
+    text-align: right;
+    text-decoration: none;
 }
